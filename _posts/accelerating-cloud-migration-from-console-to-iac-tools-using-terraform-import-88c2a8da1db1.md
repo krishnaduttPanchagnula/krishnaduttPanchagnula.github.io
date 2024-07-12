@@ -32,37 +32,34 @@ Terraform import is one of the commands within the terraform environment, which 
 
 Importing the state file helps us understand:
 
-1.  How our preferences in the console can be translated to the commands within the terraform syntax
-2.  To understand which roles or policies a resource needs for its successful working.
-3.  How can I create multiple resources, given that we are able to leverage the existing roles and policies, within the cloud environment?
+1. How our preferences in the console can be translated to the commands within the terraform syntax
+2. To understand which roles or policies a resource needs for its successful working.
+3. How can I create multiple resources, given that we are able to leverage the existing roles and policies, within the cloud environment?
 
 To understand this better, Lets implement an example in AWS environment.
 
 ## Terraform import implementation in AWS
 
-
 For the example, let us create an EC2 with t2.micro instance :
 
 ## EC2 instance:
-
 
 Lets first create a EC2 in the console and later use terraform import to import resource state into terraform state-file.
 
 **Launching EC2 from console:**
 
-1.  First log into terraform console and type EC2 in the search bar
-2.  Create EC2 instance with t2.micro and Ubuntu image.
-3.  After couple of minutes the EC2 is created along with its IAM role, and EC2 status is changed into running.
+1. First log into terraform console and type EC2 in the search bar
+2. Create EC2 instance with t2.micro and Ubuntu image.
+3  After couple of minutes the EC2 is created along with its IAM role, and EC2 status is changed into running.
+4. Now, in-order to import , lets open our favorite IDE (which in my case is VS code).
 
-4\. Now, in-order to import , lets open our favorite IDE (which in my case is VS code).
+5. Before we can use terraform in AWS , we need to configure AWS CLI and terraform CLI (Please refer this link, to do it : [https://alexander.holbreich.org/2019-terraforming-aws/](https://alexander.holbreich.org/2019-terraforming-aws/))
 
-5\. Before we can use terraform in AWS , we need to configure AWS CLI and terraform CLI (Please refer this link, to do it : [https://alexander.holbreich.org/2019-terraforming-aws/](https://alexander.holbreich.org/2019-terraforming-aws/))
+6. Once AWS and terraform are configured, create a empty resource as shown below in VS Code.
 
-6\. Once AWS and terraform are configured, create a empty resource as shown below in VS Code.
+7. Initialize the terraform within the directory, within the directory using **terraform init**
 
-7\. Initialize the terraform within the directory, within the directory using **terraform init**
-
-8\. Then type **terraform import aws\_instance.test i-0cc2507156b9510c1**( The general form is “terraform import aws\_instance.<name of the resource in terraform file> <ID of EC2 in AWS>”) and press enter. You will get the following message, once the resource has been imported.
+8. Then type **terraform import aws\_instance.test i-0cc2507156b9510c1**( The general form is “terraform import aws\_instance.<name of the resource in terraform file> <ID of EC2 in AWS>”) and press enter. You will get the following message, once the resource has been imported.
 
 9\. You can view your resources in your local terraform statefile using terraform state show aws\_instance.web ( form is “terraform import aws\_instance.<name of the resource in terraform file> <ID of EC2 in AWS>)
 
