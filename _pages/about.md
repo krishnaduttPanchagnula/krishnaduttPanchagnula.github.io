@@ -3,6 +3,16 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Certified Cloud Professional with about 4.5+ years’ experience working on Cloud Infrastructure, On-prem Data-centers, Dev-Ops and Machine Learning Projects in the fields of Blockchain, Sales enablement, E-commerce, Finance, NFT and Energy. Writer in Medium and Open-source contributor, who is skilled in tools such as Terraform, AWS, Kubernetes, HELM, ELK, Snowflake and languages such as Python, Bash (Linux), Golang etc.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+## Certifications
+
+- Kafka
+- Finops
+- GECEC
+- New Relic Observability Practitioner
+- New Relic Observability Foundations
+- Argo CD – Gitops at scale (Level II)
+- AWS Serverless Badge
+- Argo CD – Gitops (Level – I)
+- Snowflake Data Warehouse

@@ -1,14 +1,5 @@
----
-title: "Accelerating cloud migration from console to IAC tools using “Terraform Import”"
-last_modified_at: Friday, July 12, 2024 10:48:28 AM GMT+05:30
-categories:
-  - Blog
-tags:
-  - Terraform Formats
-  - IAC
-  - AWS
-  - Cloud
----
+
+# Accelerating cloud migration from console to IAC tools using “Terraform Import”
 
 With the advantages such as reduced upfront cost, little to no maintenance costs, organizations both large and small are moving to cloud, for their storage, compute and sometimes their complete end-to end business operations.
 
