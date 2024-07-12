@@ -9,7 +9,7 @@ tags:
   - Security
   - Hashicorp
 ---
-# 
+
 
 Often in software engineering, when we are developing new features, it is quite a common feature that we would encode certain sensitive information, such as passwords, secret keys, or tokens, for our code to do its intended functionality. Different professionals within the IT realm use it in different ways, such as the following:
 
