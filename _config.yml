@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Krishnadutt Panchagnula"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/profile_picture.jpg"
   bio    : "Platform/Devops/SRE/CLoud Engineer Explorer of Cultures. History buff. Coffee connoisseur"
   links:
     - label: "Website"
